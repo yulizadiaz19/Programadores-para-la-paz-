@@ -1,0 +1,16 @@
+Al enviar una petición POST a la ruta /registro con el siguiente JSON:
+
+{
+"nombre": "Maria",
+"mensaje": "Hola comunidad"
+}
+
+el servidor recibe los datos mediante req.body y responde con un objeto JSON que confirma la recepción de la información:
+
+{
+"estado": "Datos recibidos",
+"nombre": "Maria",
+"mensaje": "Hola comunidad"
+}
+
+La respuesta muestra exactamente los datos enviados por el usuario junto con el mensaje de confirmación.
